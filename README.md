@@ -1,2 +1,3 @@
 # Web
-Simple web programming examples with HTML, CSS, JavaScript
+ENG: Simple web programming examples with HTML and CSS.
+TR: HTML ve CSS ile basit web programlama örnekleri.
