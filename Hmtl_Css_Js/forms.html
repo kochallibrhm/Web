@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Forms</title>
+    </head>
+    <body>
+        <form action="">
+            <label for="name">İsim</label> <br />
+            <input type="text" /> <br />
+            <label for="surname">Soyadı</label> <br />
+            <input type="text" /> <br />
+            <label for="password">Şifre</label> <br />
+            <input type="password" /> <br />
+            <label for="email">E-mail</label><br />
+            <input type="email" /> <br />
+            <label for="birthday">Doğum Tarihi</label> <br />
+            <input type="date" /> <br />
+            <label for="phonenumber">Telefon Numarası</label> <br />
+            <input type="number" /> <br />
+            <label for="gender">Gender</label> <br />
+            <input
+                type="radio"
+                value="male"
+                class="male"
+                id="male"
+                name="gender"
+            />
+            <label for="male">Male</label><br />
+            <input
+                type="radio"
+                value="female"
+                class="female"
+                id="female"
+                name="gender"
+            />
+            <label for="male">Female</label><br />
+            <input
+                type="radio"
+                value="other"
+                class="other"
+                id="other"
+                name="gender"
+            />
+            <label for="male">Other</label><br />
+            Hobiler <br />
+            <input type="checkbox" name="tech" id="tech" class="tech" />
+            <label for="tech">Teknoloji</label>
+            <input type="checkbox" name="music" id="music" class="music" />
+            <label for="music">Müzik</label>
+            <input type="checkbox" name="art" id="art" class="art" />
+            <label for="art">Sanat</label><br />
+            Akademik durumunuzu seçiniz : <br />
+            <select name="academic" id="academic">
+                <option value="select">Seçiniz...</option>
+                <option value="bachelor">Lisans</option>
+                <option value="grad">Yüksek Lisans</option>
+                <option value="phd">Doktora</option>
+            </select>
+            <br />
+            Açıklama <br />
+            <textarea name="expl" id="expl" cols="30" rows="10"></textarea>
+            <br />
+
+            <button type="submit">Gönder</button>
+            <button type="reset">Sıfırla</button>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,56 @@
+/* Text */
+.text-center {
+    text-align: center;
+}
+
+/* Headings */
+
+.heading-small {
+    font-size:1.25rem ;
+}
+
+.heading-medium {
+    font-size:1.5rem;
+}
+
+.heading-big{
+    font-size:1.75rem;
+}
+
+/* Colors */
+.bg-dark-blue{
+    background : #062e51;
+}
+
+.bg-light-blue {
+    background: #336ea2;
+}
+
+/* Buttons */
+
+.btn {
+    margin-top : 1rem;
+    padding: 0.7rem 3rem;
+    border-radius: 7px;
+    letter-spacing: 1px;
+}
+
+.btn-primary {
+    background: #336ea2;
+}
+
+.btn-primary:hover {
+    color: #336ea2;
+    background: #fff;
+    border : 0.5px solid #336ea2;
+}
+
+.btn-dark {
+    background: #333;
+}
+
+.btn-dark:hover {
+    color: #333;
+    background: #fff;
+    border : 0.5px solid #333;
+}
